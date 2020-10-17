@@ -6,7 +6,6 @@ the purposes of this question, simply returns right away.
 
 ```cpp
 void process_req(char *input) {
-
 	char buf[256];
 	strcpy(buf, input);
 	if (!strncmp(buf, "GET ", 4))
