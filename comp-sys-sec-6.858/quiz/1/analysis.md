@@ -4,7 +4,7 @@ Ben Bitdiddle is building a web server that runs the following code sequence, in
 is invoked with a user-supplied string of arbitrary length. Assume that process_get() is safe, and for
 the purposes of this question, simply returns right away.
 
-```cplusplus
+```cpp
 void process_req(char *input) {
 
 char buf[256];
